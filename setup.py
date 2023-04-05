@@ -33,7 +33,7 @@ def register():
 def login():
     users = open("users.txt").read().split("|")
     if users[0] != "":
-        loginarryInternal[i] = users[i]
+        loginarryInternal = users
         return loginarryInternal
     else:
         register()
