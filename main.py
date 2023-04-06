@@ -1,6 +1,7 @@
 from setup import setup
 from output import output
 from mainloop import mainloop
+from interface import hi
 
 
 startCheck = setup()
